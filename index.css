@@ -77,16 +77,6 @@ section h2::after {
     z-index: 1;
 }
 
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); 
-}
-
-
 @keyframes slideBackground {
     0% {
         transform: translateX(0);
@@ -128,7 +118,10 @@ section h2::after {
     font-weight : 400;
 }
 
-/* CV Download Button Styles */
+
+/* CV Download Button Styles*/
+
+
 .cv-download-wrapper {
     text-align: center;
     margin: 30px 0;
@@ -155,25 +148,6 @@ section h2::after {
 
 .cv-download-btn i {
     margin-right: 10px;
-}
-
-.cta-button {
-    display: inline-block;
-    padding: 15px 30px;
-    background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
-    color: #fff;
-    text-decoration: none;
-    border-radius: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
-
-.cta-button:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
 }
 
 /* Navigation */
