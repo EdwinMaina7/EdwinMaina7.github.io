@@ -374,6 +374,29 @@ nav.scrolled {
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
     background: linear-gradient(90deg, rgba(255,107,107,0.2), rgba(78,205,196,0.2));
 }
+/* the about-image style */
+.about-image {
+    flex: 1;
+    min-width: 250px;
+    max-width: 250px; 
+    border-radius: 50%; 
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    transform: rotate(0deg); 
+    transition: transform 0.5s ease;
+    margin: auto; 
+}
+
+.about-image:hover {
+    transform: scale(1.05); 
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
 
 /* Services Section */
 .services-grid {
