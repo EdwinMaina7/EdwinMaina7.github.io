@@ -1,5 +1,8 @@
 # Edwin's Personal Portfolio
 
+## Link
+https://edwinmaina7.github.io/
+
 ## Overview
 This is my personal portfolio website showcasing my skills, projects, education, and professional experience. The site has been designed to present my qualifications and capabilities in a clean, professional format.
 
@@ -18,7 +21,6 @@ The education section highlights my academic background:
 ## Technologies Used
 - HTML5
 - CSS3
-- Font Awesome (for icons)
 
 ## How to Use
 1. Clone this repository
