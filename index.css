@@ -119,6 +119,76 @@ section h2::after {
     margin-bottom: 20px;
     text-align: center;
 }
+/* Education container Section Styling */
+.education-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.education-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.education-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
+}
+
+.education-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+.education-item {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.education-icon {
+    font-size: 2.5rem;
+    margin-right: 20px;
+    color: #4ecdc4;
+}
+
+.education-details {
+    flex: 1;
+}
+
+.education-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #f0f0f0;
+}
+
+.education-details .institution {
+    font-size: 1.1rem;
+    color: #b0b0b0;
+    margin-bottom: 5px;
+}
+
+.education-details .year {
+    font-size: 1rem;
+    color: #ff6b6b;
+    font-weight: 500;
+}
 
 /* CV Download Button Styles */
 .cv-download-wrapper {
